@@ -1,0 +1,208 @@
+
+
+body
+{
+	font-size:       62.5%; 
+	margin:          0;
+	padding:         0;
+	background-color: #f0fcfc;
+	font-family:     arial, tahoma, sans-serif;
+}
+
+#container
+{
+	margin:          0 auto;
+	padding-top:20px;
+	width:           1003px;
+	position:        relative;
+	background-color:  #D9C6A7;
+}
+
+#header
+{
+	margin:          0 auto;
+	width:           960px;
+	height:          250px;
+	background:      transparent url('header.jpg') top left no-repeat;
+}
+
+.headtitle
+{
+	position:        relative;
+	font-family:     arial, sans-serif;
+	font-size:       30px;
+	color:           #000000;
+	top:             210px;
+	left:            12px;
+	font-style: 	 italic
+}
+
+#menu
+{
+	margin:          0 20px;
+	height:          29px;
+	padding:         5px 0;
+}
+
+#menu ul
+{
+	margin:          0;
+	padding:         7px;
+
+	height:          29px;
+}
+
+#menu ul li
+{
+	list-style:      none;
+	display:         inline;
+}
+
+#menu ul li a:link, #menu ul li a:active, #menu ul li a:visited
+{
+	color:           #767676;	
+	padding:         10px 7px 10px 7px;
+	font-size:       2em;
+
+	font-family:     arial, sans-serif;
+	font-weight:     bold;
+	text-decoration: none;
+}
+
+#menu ul li a:hover
+{
+	background-color:   #6A7919;
+	color:           #FDFDFD;
+}
+
+
+#content
+{
+	min-height:      390px;
+	width:           960px;
+	margin:          0 auto;
+	background-color:#FDFDFD;
+}
+
+#insidecontent
+{
+	
+	padding-left:    25px;
+	padding-right:    25px;
+	width:           auto;
+}
+
+#insidecontent p
+{
+	margin:          0;
+	color:           #333333;
+	font-family:     Arial;
+	font-size:       1.5em;
+	line-height:     170%;
+}
+
+
+.left {
+float: left;
+width: 620px;
+text-align: justify;
+}
+
+.left h1
+{
+	margin:          0;
+	font-weight:     normal;
+	color:           #6A7919;
+	font-size:       2.5em;
+	font-family:	 Arial;
+}
+
+.left h2
+{
+	margin:          0;
+	display:         inline;
+	position:        relative;
+	top:             -1.5em;
+	left:            2em;
+	font-size:       1.8em;
+	font-weight:     normal;
+	color:           #94c258;
+}
+
+.left h3
+{
+	margin:          0;
+	font-size:       15px;
+	font-weight:     normal;
+	color:           #1A1A1A;
+}
+
+.right {
+float: right;
+width: 250px;
+margin-top: 10px;
+padding-right:    15px;
+}
+
+.right h1 {
+margin: 0;
+padding-left: 10px;
+height: 28px;
+line-height: 28px;
+color: #fff;
+font-size: 19px;
+background-color: #333333;
+}
+.right h2
+{
+	margin:          0;
+	padding-left: 10px;
+	font-weight:     bold;
+	color:           #1A1A1A;
+	font-size:       18px;
+	font-family:	 Arial;
+	background-color:#B8D4B8;
+}
+.right h3
+{
+	margin:          0;
+	padding-left: 0px;
+	font-weight:     normal;
+	color:           #6A7919;
+	font-size:       18px;
+	font-family:	 Arial;
+	background-color:#B8D4B8;
+}
+.right ul {
+padding: 10px 0 15px 20px;
+list-style-type: square;
+}
+.right ul li a {
+color: #CCC;
+text-decoration: none;
+font-size: 20px;
+font-weight: 100;
+}
+.right ul li a:hover {
+color: #CCC;
+font-weight: 600;
+}
+
+
+#foot
+{
+	margin:          0 auto;
+	width:           961px;
+	height:          39px;
+
+}
+
+#foot span
+{
+	display:         block;
+	position:        relative;
+	font-family:     Arial;
+	font-size:       1.2em;
+	padding:         10px;
+	color:           #767676;
+}
